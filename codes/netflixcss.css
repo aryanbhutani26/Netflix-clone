@@ -1,0 +1,246 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins' , sans-serif;
+    
+    
+}
+.main{
+    background-image: url(assets/bg.jpg);
+    height: 85vh;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: max(1250px,100vw);
+    /* background-color: black;
+    opacity:0.44; */
+    margin: 0px;
+
+}
+
+.main .box{
+    height: 85vh;
+    width: 100%;
+    opacity:0.65;
+    position: absolute;
+    top:0;
+    background-color: black;
+    
+}
+
+nav{
+   
+    /* width: 70px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 70px;
+}
+nav img{
+    color:red;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.mainline{
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+
+}
+.mainline> :first-child{
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+    font-family: "poppins" ,sans-serif;
+    font-weight: 700;
+
+}
+
+.mainline> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mainline> :nth-child(3){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.line{
+height: 8px;
+background-color: rgb(83, 82, 82);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(249, 245, 245, 0.217);
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btnred{
+    background-color: red;
+    color: snow;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.mainline buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    /* color: aliceblue; */
+
+
+}
+.main input{padding:7px 105px 9px 14px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.5);
+    color: aliceblue;
+    border: 1px solid rgba(249, 246, 246, 0.4);
+
+}
+.btnredsm{
+background-color: red;
+color: snow;
+}
+section{
+    background-color: black;
+    width:100vw;
+    height: 80vh;
+    
+}
+.first{
+    display: flex;
+    
+    color: aliceblue;
+    justify-content: center;
+    text-align: left;
+    /* width: 80vw; */
+    align-items: center;
+}
+.secimg img{
+width: 30vw;
+position: relative;
+z-index: 10;
+}
+.secimg{
+    position: relative;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 400px;
+}
+h1{
+    font-size: 50px;
+    /* font-family: "martel sans" */
+}
+p{
+    font-size: 20px;
+    font-family: "poppins";
+}
+
+/* .videothird :nth-child(2){
+    top:5px;
+    width: 200px;
+    margin: 0px 20px;
+    right: 20px;
+    height: 500px;
+    
+
+} */
+
+.faq h2{
+    text-align: center;
+    padding: 34px;
+    font-size: 50px;
+}
+.faq{
+    background-color: black;
+    color: whitesmoke;
+}
+.faqbox{
+    display: flex;
+    background-color: rgba(61, 61, 61, 0.5);
+    color: wheat;
+    padding: 25px;
+    max-width: 50vw;
+    margin: 30px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 1s ease-out;
+    
+}
+.faqbox:hover{
+    background-color: rgb(81, 81, 81);
+    color: wheat;
+    
+
+}
+
+/* .email{
+    margin-right: 100px;
+    display: inline;
+}
+.email span{
+    text-align: center;
+    left: 200px;
+} */
+footer{
+    color: white;
+   
+}
+footer span{
+    margin: auto;
+    
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: aliceblue;
+    padding: 14px;
+    margin-top: 155.6%;
+    background-color: black;
+}
+
+.footeritem{
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    gap: 23px;
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: beige;
+    font-size: 15px;
+}
